@@ -527,6 +527,6 @@ A formal open-source license can be added before public redistribution or produc
 
 ```
 ```
-# **`Md. Nayim Howlader1**
+# **`Md. Nayim Howlader`**
 ## **`BSc (Honours), Statistics`,**
 ## **`Dhaka College, Dhaka`**
