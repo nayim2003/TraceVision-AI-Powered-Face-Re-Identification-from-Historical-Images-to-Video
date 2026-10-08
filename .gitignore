@@ -1,0 +1,171 @@
+```gitignore
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# IDE / Editors
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================================
+# Operating System
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+# Test / Coverage
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+coverage.json
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# TraceVision Runtime Data
+# ============================================================
+
+# Raw videos
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed videos
+data/processed/videos/*
+!data/processed/videos/.gitkeep
+
+# Generated embeddings
+data/processed/embeddings/*
+!data/processed/embeddings/.gitkeep
+
+# Generated person embeddings
+data/processed/embeddings/person/*
+!data/processed/embeddings/person/.gitkeep
+
+# Generated face embeddings
+data/processed/embeddings/face/*
+!data/processed/embeddings/face/.gitkeep
+
+# Runtime outputs
+data/output/*
+!data/output/.gitkeep
+
+# Runtime sessions
+data/sessions/*
+!data/sessions/.gitkeep
+
+# Audit files
+data/audit/*
+!data/audit/.gitkeep
+
+# Temporary files
+data/tmp/*
+!data/tmp/.gitkeep
+
+# ============================================================
+# Models / Weights
+# ============================================================
+
+# Large model files
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.bin
+*.safetensors
+
+# YOLO / downloaded model caches
+runs/
+weights/
+
+# ============================================================
+# FAISS / Vector Indexes
+# ============================================================
+
+*.faiss
+*.index
+
+# ============================================================
+# Generated reports / exports
+# ============================================================
+
+*.csv
+*.xlsx
+*.parquet
+
+# ============================================================
+# Local development files
+# ============================================================
+
+*.local
+*.backup
+*.bak
+*.tmp
+
+# ============================================================
+# OS / tooling leftovers
+# ============================================================
+
+.python-version
+pip-wheel-metadata/
+```
