@@ -1,0 +1,30 @@
+{
+    "session_id": "c08eb36b25c4",
+    "source": "data/raw/test_video.mp4",
+    "started_at": "2026-10-06T20:19:47.875583+00:00",
+    "ended_at": "2026-10-06T20:20:43.019280+00:00",
+    "status": "completed",
+    "error": null,
+    "processed_frames": 100,
+    "finalized_tracks": 6,
+    "model_versions": {
+        "detector": "YOLO11n",
+        "tracker": "ByteTrack",
+        "person_reid": "OSNet-x1-0",
+        "retrieval": "FAISS-IndexFlatIP"
+    },
+    "configuration": {
+        "detection_confidence": 0.5,
+        "minimum_quality": 0.6,
+        "top_k": 5,
+        "minimum_observations": 3
+    },
+    "audit_records": [
+        "data\\processed\\audit\\c08eb36b25c4\\track_15.json",
+        "data\\processed\\audit\\c08eb36b25c4\\track_16.json",
+        "data\\processed\\audit\\c08eb36b25c4\\track_17.json",
+        "data\\processed\\audit\\c08eb36b25c4\\track_18.json",
+        "data\\processed\\audit\\c08eb36b25c4\\track_20.json",
+        "data\\processed\\audit\\c08eb36b25c4\\track_24.json"
+    ]
+}

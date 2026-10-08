@@ -1,0 +1,24 @@
+{
+    "session_id": "a41f821b062a",
+    "source": "C:\\Users\\mdnay\\AppData\\Local\\Temp\\tmphveq3i3j.mp4",
+    "started_at": "2026-10-08T17:39:37.685906+00:00",
+    "ended_at": "2026-10-08T17:41:56.895851+00:00",
+    "status": "completed",
+    "error": null,
+    "processed_frames": 106,
+    "finalized_tracks": 10,
+    "model_versions": {
+        "detector": "yolo11n.pt",
+        "tracker": "bytetrack",
+        "face": "buffalo_l",
+        "person_reid": "osnet_x1_0"
+    },
+    "configuration": {
+        "frame_skip": 5,
+        "person_similarity_threshold": 0.7,
+        "face_similarity_threshold": 0.7,
+        "person_top_k": 10,
+        "face_top_k": 10
+    },
+    "audit_records": []
+}
