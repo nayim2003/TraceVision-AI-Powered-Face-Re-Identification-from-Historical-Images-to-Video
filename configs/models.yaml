@@ -1,0 +1,13 @@
+detector:
+  name: "yolo"
+  model: "yolo11n.pt"
+
+face:
+  name: "arcface"
+
+person:
+  name: "osnet"
+
+retrieval:
+  name: "faiss"
+  index_type: "IndexFlatIP"

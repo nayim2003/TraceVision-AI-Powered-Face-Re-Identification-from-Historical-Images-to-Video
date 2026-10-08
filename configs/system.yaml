@@ -1,0 +1,29 @@
+project:
+  name: "TraceVision"
+  version: "0.1.0"
+  environment: "development"
+
+video:
+  source: "webcam"
+  frame_skip: 0
+  target_fps: 20
+
+detection:
+  confidence_threshold: 0.50
+  iou_threshold: 0.50
+
+tracking:
+  tracker: "bytetrack"
+  track_buffer: 30
+  minimum_track_length: 5
+
+retrieval:
+  top_k: 10
+  similarity_threshold: 0.70
+
+runtime:
+  device: "auto"
+  half_precision: true
+
+logging:
+  level: "INFO"
