@@ -1,0 +1,18 @@
+{
+    "session_id": "test_session_001",
+    "created_at": "2026-10-07T15:25:53.604406+00:00",
+    "record_type": "track_final_result",
+    "result": {
+        "track_id": 12,
+        "first_frame": 100,
+        "last_frame": 250,
+        "duration_frames": 151,
+        "observation_count": 120,
+        "person_embedding_count": 20,
+        "state": "finalized",
+        "model_version": "0.1.0",
+        "has_candidates": false,
+        "candidates": [],
+        "best_candidate": null
+    }
+}
