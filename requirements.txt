@@ -1,0 +1,16 @@
+numpy
+opencv-python
+Pillow
+torch
+torchvision
+ultralytics
+torchreid
+insightface
+onnxruntime
+faiss-cpu
+fastapi
+uvicorn
+python-multipart
+streamlit
+pytest
+httpx
